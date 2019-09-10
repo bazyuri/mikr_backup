@@ -2,6 +2,7 @@
 routers=( 192.168.0.1 192.168.0.2 )
 backupdir="/home/backup/mikrotik/temp/"
 privatekey="/root/.ssh/id_dsa"
+login="admin"
 fulldir="${backupdir}"
 .
 for r in ${routers[@]}; do
